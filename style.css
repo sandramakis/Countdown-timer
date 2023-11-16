@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background-image: linear-gradient(to left, seagreen, rgb(60, 60, 171));
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0.5rem 2rem;
+  color: #ddd;
+}
+
+.display--wrapper,
+.display-options {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+}
+
+.display--wrapper {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  width: 90vw;
+}
+
+.display--timer {
+  cursor: pointer;
+}
+
+.display--timer:hover {
+  opacity: 0.8;
+}
+
+.timer-wrapper {
+  padding-top: 10rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+form input {
+  padding: 5px;
+}
